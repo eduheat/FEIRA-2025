@@ -5,7 +5,7 @@
 
 
     body{
-        background-color: #EFF9FB ;
+    
         color: #323232 ;
         
     .container-pagina{
@@ -55,6 +55,9 @@
     }
     h1{
         margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        margin: 20px;
     }
 
     section{
@@ -64,13 +67,16 @@
         flex-direction: column;
         gap: 1cm;
         width: 99%;
+        align-items: center;        
+
 
 
 
     .boas-vindas{
         display: flex;
-        width: 100%;
+        width: 70%;
         height: 25rem;
+        
         
 
         .apresentacao{
@@ -80,8 +86,8 @@
 
         .cursos{
             position: absolute;
-            width: 15%;
-            transform: translate(90px, 50px);
+            width: 20%;
+            transform: translate(200px, 50px);
         }
     }
 
@@ -91,7 +97,7 @@
         height: 25rem;
         flex-wrap: wrap;
         align-items: center;
-        gap: 0.5cm;
+        gap: 1.5cm;
         justify-content: center;
 
         .carta_curso{
@@ -124,6 +130,13 @@
                 justify-content: flex-start;
                 align-items: center;
             }
+        }
+
+        .carta_curso:hover{
+
+opacity: 90%;
+transition: all 1.0s;
+
         }
 
     }
