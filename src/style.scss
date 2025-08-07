@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+    body{
+        background-color: #EFF9FB ;
+        color: #323232 ;
+        
+    .container-pagina{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.2cm;
+
+        .cabecalho{
+
+            width: 100%;
+            background: linear-gradient(to right, #00AEED, #cecece, #F58730);
+            height: 5rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 0.5cm;
+            justify-content: space-between;
+
+            .logo{
+                height: 70px;
+                
+                width: auto;
+                
+            }
+            .texto-cabecalho{
+                width: 30%;
+                font-size: 25px;
+                color: white;
+                display: flex;
+                gap: 1cm;
+            }
+
+            .email_lock{
+                margin-top: 45px;
+                height: 35px;
+                width: 300px;
+                color: white;
+             
+            }
+
+ 
+        }   
+
+
+    }
+    h1{
+        margin-left: 10px;
+    }
+
+    section{
+        display: flex;
+        height: 25rem;
+        margin: 10px;
+        flex-direction: column;
+        gap: 1cm;
+        width: 99%;
+
+
+
+    .boas-vindas{
+        display: flex;
+        width: 100%;
+        height: 25rem;
+        
+
+        .apresentacao{
+            width: 100%;
+            position: relative;
+        }
+
+        .cursos{
+            position: absolute;
+            width: 15%;
+            transform: translate(90px, 50px);
+        }
+    }
+
+    .galeria_de_cursos{
+         display: flex;
+        width: 100%;
+        height: 25rem;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5cm;
+        justify-content: center;
+
+        .carta_curso{
+            width: 30%;
+            display: flex;
+            flex-direction: column; 
+            background:linear-gradient(to top, #FFFEFE, #66A1C5 );
+            height: 9rem;   
+            gap: 5px;
+            border-radius: 10px;
+
+            .apresenta{
+               display: flex;
+               flex-direction: row; 
+               font-size:13px;
+               align-items: center;    
+               gap: 5px; 
+
+
+            }
+            .img_curso{
+                width: 50px;
+                
+            }
+            .descri{
+                display: flex;
+                width: 100%;
+                height: 100rem;
+                font-size: 12px;
+                justify-content: flex-start;
+                align-items: center;
+            }
+        }
+
+    }
+    }
+
+
+    
+
+    }
+}
