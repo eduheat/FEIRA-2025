@@ -16,7 +16,6 @@ export default function Inicio(){
     
     return(
         <div className="container-pagina">
-            <h1>afafafafafafafaf</h1>
             <div className="cabecalho">
                 <div className="texto-cabecalho">
             <img className="logo" src={logo} height="50px"/>
