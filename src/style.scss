@@ -1,103 +1,69 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0%;
+    padding: 0%;
+}
 
-    .bakbak-one-regular {
-        font-family: "Bakbak One", sans-serif;
-    }
+main {
+    background-color: #00d7fd ;
+}
 
-    body{
+.bakbak-one-regular {
+  font-family: "Bakbak One", sans-serif;
+  color: white;
+  -webkit-text-stroke: 1.5px;
+  -webkit-text-stroke-color: #33308C;
 
-        background-color: #e2f6fa;
-        color: #323232 ;
-        
-    .container-pagina{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 0.2cm;
+  width: 650px;
+  font-size: 40px;
+  line-height: 90%;
+}
 
-        .cabecalho{
+.imagemLogo {
+    margin-top: -5px;
+    margin-right: 10px ;
+    margin-left: 10px ;
 
-            width: 100%;
-            background: linear-gradient(160deg, #00AEED, #b4ddd4, #F58730);
-            height: 5rem;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 0.5cm;
-            justify-content: space-between;
+    height: 105px;
+}
 
-            .logo{
-                height: 70px;
-                
-                width: auto;
-                
-            }
-            .texto-cabecalho{
-                width: 30%;
-                font-size: 25px;
-                color: white;
+.headerClass {
+    height: 110px;
+    background: linear-gradient(170deg, #04a6e0, #a7dbcb, #f8902e);
+    
+    display: flex;
+    align-items: center;
+}
 
-                display: flex;
-                gap: 1cm;
+.infoPequena {
+    width: 1140px;
+    text-align: end;
+    font-size: 24px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
 
+    display: flex;
+    align-self: end;
+    flex-direction: column;
+}
 
-                -webkit-text-stroke: #3e72d3;
-                -webkit-text-stroke-width: 1px;
-            }
+.fotosClass {
+    display: flex;
+    justify-content: center;
+}
 
-            .email_lock{
-                margin-top: 45px;
-                height: 35px;
-                width: 300px;
-                color: white;
-            }
+.fotosFeira {
+    margin-top: 20px;
+    filter: brightness(70%);
+    width: 95%;
+}
 
- 
-        }   
+.logoFeira {
+    position: relative;
+    bottom: 750px;
+    filter: drop-shadow(1px 1px 4px white) drop-shadow(-1px -1px 3px white);
 
-
-    }
-    h1{
-        margin-left: 10px;
-        display: flex;
-        justify-content: center;
-        margin: 20px;
-    }
-
-    section{
-        display: flex;
-        height: 25rem;
-        margin: 10px;
-        flex-direction: column;
-        gap: 1cm;
-        width: 99%;
-        align-items: center;        
-
-
-
-
-    .boas-vindas{
-        display: flex;
-        width: 70%;
-        height: 25rem;
-        
-        
-
-        .apresentacao{
-            width: 100%;
-            position: relative;
-        }
-
-        .cursos{
-            position: absolute;
-            width: 20%;
-            transform: translate(200px, 50px);
-        }
-    }
+    height: 600px;
+}
 
     .galeria_de_cursos{
          display: flex;
@@ -145,17 +111,7 @@
         }
 
         .carta_curso:hover{
-
-opacity: 90%;
-transition: all 1.0s;
-
+            opacity: 90%;
+            transition: all 1.0s;
         }
-
-    }
-    }
-
-
-    
-
-    }
 }
