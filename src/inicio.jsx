@@ -22,7 +22,7 @@ export default function Inicio(){
             <header>
                 <div className="headerClass">
                     <div className="imagemLogo">
-                        <img src={"Logo.png"}/>
+                        <img src={logo}/>
                     </div>
                     <div className="bakbak-one-regular">
                         <h1>Instituto Social Nossa Senhora de Fátima</h1>
@@ -35,10 +35,8 @@ export default function Inicio(){
             </header>
             <body>
                 <div className="fotosClass">
-                    <img className="fotosFeira" src={"Fotos.png"}/>
-                </div>
-                <div className="fotosClass logoFeira">
-                    <img src={"Feira.png"}/>
+                    <img className="fotosFeira" src={Fotos}/>
+                    <img className="logoFeira" src={Feira}/>
                 </div>
                 <div className="galeria_de_cursos">
                     <div className="carta_curso">
