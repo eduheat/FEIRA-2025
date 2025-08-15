@@ -50,7 +50,10 @@
             }
 
             .email_lock{
-                margin-top: 45px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
                 height: 35px;
                 width: 300px;
                 color: white;
@@ -62,7 +65,7 @@
 
     }
     h1{
-        margin-left: 10px;
+        
         display: flex;
         justify-content: center;
         margin: 20px;
@@ -70,8 +73,8 @@
 
     section{
         display: flex;
-        height: 25rem;
-        margin: 10px;
+        height: 50rem;
+        
         flex-direction: column;
         gap: 1cm;
         width: 99%;
@@ -82,20 +85,23 @@
 
     .boas-vindas{
         display: flex;
-        width: 70%;
-        height: 25rem;
+        width: 100%;
+        height: 60em;
+        position: relative;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+    
         
         
 
-        .apresentacao{
-            width: 100%;
-            position: relative;
-        }
+      
 
         .cursos{
-            position: absolute;
-            width: 20%;
-            transform: translate(200px, 50px);
+            position:relative;
+            
+            height: 250PX;
+            
         }
     }
 

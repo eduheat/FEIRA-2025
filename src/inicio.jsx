@@ -37,9 +37,13 @@ export default function Inicio(){
             <section>
 
             <div className="boas-vindas">
-                <img src={apresentacao} className="apresentacao" />
+
+
                 <img src={cursos}   className="cursos"/>
-              
+                <div className="textos">
+                    <h1>Esforço que  transforma, e o orgulho permanece</h1>
+                    <button></button>
+                </div>
 
             </div>
 
